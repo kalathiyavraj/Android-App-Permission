@@ -34,9 +34,7 @@ public class PermissionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_permission);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
        
-        Bundle bundle1 = new Bundle();
-        bundle1.putString("PermissionActivity","1");
-        photocreation.camera.blurcamera.Utils.Utils.mFirebaseAnalytics.logEvent("PermissionActivity", bundle1);
+
 
 
 
