@@ -1,4 +1,3 @@
-package photocreation.camera.blurcamera.App_Permission;
 
 import android.app.Activity;
 import android.content.Context;
