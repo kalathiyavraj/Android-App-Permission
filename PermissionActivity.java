@@ -1,4 +1,3 @@
-package photocreation.camera.blurcamera.App_Permission;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,9 +33,7 @@ public class PermissionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permission);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        Tools.setSystemBarColor(this, 17170443);
-        Tools.setSystemBarLight(this);
-
+       
         Bundle bundle1 = new Bundle();
         bundle1.putString("PermissionActivity","1");
         photocreation.camera.blurcamera.Utils.Utils.mFirebaseAnalytics.logEvent("PermissionActivity", bundle1);
